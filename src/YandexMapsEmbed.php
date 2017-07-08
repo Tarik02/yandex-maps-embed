@@ -31,7 +31,7 @@ class YandexMapsEmbed implements YandexMapsEmbedContract
 
     public function make($string, $options = [])
     {
-        $options = $this->defaultOptions + $options;
+        $options = $options + $this->defaultOptions;
 
         return implode('', [
             '<iframe src="https://yandex.com/map-widget/v1/-/',

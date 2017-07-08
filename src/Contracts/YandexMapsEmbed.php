@@ -2,7 +2,7 @@
 
 namespace Tarik02\YandexMapsEmbed\Contracts;
 
-interface YandexMapEmbed
+interface YandexMapsEmbed
 {
     public function parse($data);
 

@@ -26,7 +26,7 @@ class YandexMapsEmbedServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(\Tarik02\YandexMapsEmbed\Contracts\YandexMapEmbed::class, \Tarik02\YandexMapsEmbed\YandexMapEmbed::class);
-        $this->app->alias(\Tarik02\YandexMapsEmbed\Contracts\YandexMapEmbed::class, 'yandex-map-embed');
+        $this->app->singleton(\Tarik02\YandexMapsEmbed\Contracts\YandexMapsEmbed::class, \Tarik02\YandexMapsEmbed\YandexMapsEmbed::class);
+        $this->app->alias(\Tarik02\YandexMapsEmbed\Contracts\YandexMapsEmbed::class, 'yandex-maps-embed');
     }
 }

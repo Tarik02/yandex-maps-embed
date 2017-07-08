@@ -2,10 +2,10 @@
 
 namespace Tarik02\YandexMapsEmbed;
 
-use Tarik02\YandexMapsEmbed\Contracts\YandexMapEmbed as YandexMapEmbedContract;
+use Tarik02\YandexMapsEmbed\Contracts\YandexMapsEmbed as YandexMapsEmbedContract;
 use Tarik02\YandexMapsEmbed\Exceptions\InvalidDataException;
 
-class YandexMapEmbed implements YandexMapEmbedContract
+class YandexMapsEmbed implements YandexMapsEmbedContract
 {
     const REGEXES = [
         '~(?:http|https)://[^/]+/map-widget/v1/-/([A-Za-z0-9\-]+)~',
